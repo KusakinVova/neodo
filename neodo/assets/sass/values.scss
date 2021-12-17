@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+
+// values
+$color_bg: #04020e;
+$color_bg2: #0a0717;
+$color_text: #ffffff;
+$color_text_dop: #706b83;
+$color_brand1: #281e5b;
+$color_brand2: #fe1d51;
+$color_brand2_dop: #f85b80;
+$color_brand3: #d1caf1;
+
+
+$color_form_error: rgb(255, 2, 2);
+$color_form_error1: rgb(255, 2, 2, 10%);
+$color_form_error2: rgb(255, 2, 2, 40%);
+
+
+
+$media_queries_mobile: 320px;
+$media_queries_tablet: 760px;
+$media_queries_desktop: 1366px;
+
+@mixin transition {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
