@@ -1,0 +1,17 @@
+{
+  "name": "neodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "htmlhint": "htmlhint *.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^0.15.1",
+    "stylelint-config-htmlacademy": "^0.1.10",
+    "sass": "^1.42.1"
+  }
+}
